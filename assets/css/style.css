@@ -110,6 +110,8 @@ a {
   color: inherit;
 }
 
+
+
 a,
 img,
 span,
@@ -119,10 +121,13 @@ button,
 textarea,
 ion-icon { display: block; }
 
-img { height: auto; }
+img { height: auto;}
 
 ion-icon {
   pointer-events: none;
+  color: var(--white);
+}
+.title{
   color: var(--white);
 }
 
@@ -1316,4 +1321,5 @@ max-width: 600px;}
   justify-content: center;
   text-align: center;
   margin-top: 20%;
+  
 }
